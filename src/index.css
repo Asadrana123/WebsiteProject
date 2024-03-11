@@ -5,10 +5,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.hoverGrid {
+  transition: transform 1s ease; /* Add a smooth transition effect */
+
+  /* Initial state styles */
+  transform: scale(1);
+}
+
 .hoverGrid:hover {
   transform: scale(1.05); /* Increase the scale on hover */
-  transition: transform 1s ease;
- /* Add a smooth transition effect */
 }
 .pushable {
   background: hsl(340deg 100% 32%);
@@ -22,6 +27,7 @@
   display: block;
   padding: 12px 42px;
   border-radius: 12px;
+  font-weight: bold;
   font-size: 1.25rem;
   background: hsl(345deg 100% 47%);
   color: white;
@@ -36,6 +42,18 @@
     width: 100%;
   }
 }
+.color-change{
+  animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  0% { color: rgb(0, 194, 182); }
+  50% { color: rgb(149, 89, 222);; }
+  100% { color:rgb(60, 178, 253) }
+}
+.para{
+  font-family:cursive;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

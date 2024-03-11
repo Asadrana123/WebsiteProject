@@ -1,0 +1,35 @@
+/* MyComponent.css */
+
+.my-component-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 12px;
+  }
+  
+  .my-card {
+    border: 2px solid #3CB2FD;
+    box-shadow: 0px 4px 6px rgba(60, 178, 253, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  .my-card:hover {
+    box-shadow: 6px 6px 12px rgba(60, 178, 253, 0.3);
+  }
+  
+  .my-card-media {
+    height: 70%;
+    border-radius: 10px;
+  }
+  
+  .my-card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .my-button {
+    margin-top: auto; /* Align button to the bottom */
+  }
+  

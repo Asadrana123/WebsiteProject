@@ -14,8 +14,8 @@ const Container2 = () => {
           <img src="https://static.vecteezy.com/system/resources/thumbnails/002/372/378/small_2x/cute-star-character-mascot-flat-cartoon-emoticon-design-illustration-vector.jpg" style={{ width: 30, height: 30 }} alt="star" />
         </Grid>
         <Grid item xs={8} md={6}>
-          <Typography variant={isSmallScreen ? 'h5' : 'h3'}>
-            Elevate Your Essay to Perfection
+          <Typography variant={isSmallScreen ? 'h5' : 'h3'} style={{fontWeight:"500"}}>
+            Elevate <span className='color-change'>Your Essay</span> to Perfection
           </Typography>
         </Grid>
         <Grid item xs={2}>

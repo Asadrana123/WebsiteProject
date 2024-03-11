@@ -19,8 +19,8 @@ const Container3 = () => {
 
       {/* Right side - Typography */}
       <Grid item xs={10} md={7} style={{ display:"flex", justifyContent:"center",alignItems:"center"}}>
-        <Typography variant="h4" sx={{fontWeight:"bold", fontSize:"40px"}}>
-          <span><img src={Emoji}  width="30" height="30" /></span> Learn how to write a successful personal statement and supplements in our Blog
+        <Typography variant="h4" sx={{fontWeight:"bold", fontSize:"35px"}}>
+          <span><img src={Emoji}  width="30" height="30" /></span> <span className='para'>Learn how to write a <span className='color-change'>successful personal statement </span>and supplements in our Blog</span>
         </Typography>
       </Grid>
     </Grid>

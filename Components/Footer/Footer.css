@@ -1,0 +1,30 @@
+.footer-container {
+    background-color: #2e3746;
+    color: #9AA4B4;
+    width: 100%;
+  }
+  
+  .footer-container > div {
+    width: fit-content;
+    margin: auto;
+  }
+  
+  /* Responsive layout using media queries */
+  @media (max-width: 900px) {
+    .footer-container > div > div {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-container > div > div > .MuiBox-root {
+      width: 100% !important;
+      justify-content: center !important;
+      margin: 16px 0;
+    }
+  
+    .footer-container > div > div > .MuiButton-root {
+      width: 100% !important;
+    }
+  }
+  
